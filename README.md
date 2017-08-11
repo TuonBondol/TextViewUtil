@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Android TextView Util for Using extra TextView Function such as Underline, Strike in Kotlin Language
+Android TextView Util Using for extra TextView Function such as Underline, Strike in Kotlin Language
 
 ## Demo
 ![](static/text_view_util_android.png)
