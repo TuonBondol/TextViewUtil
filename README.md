@@ -12,8 +12,7 @@ Step 1
 
 ```
 allprojects {
-		repositories {
-			...
+	repositories {
 			maven { url 'https://jitpack.io' }
 		}
 	}
@@ -26,8 +25,6 @@ dependencies {
 	        compile 'com.github.BondolTuon:TextViewUtilAndroid:1.0.0'
 	}
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
