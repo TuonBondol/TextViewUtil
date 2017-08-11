@@ -4,10 +4,10 @@
 
 Android TextView Util for Using extra TextView Function such as Underline, Strike in Kotlin Language
 
-### Example
+## Example
 ![](static/text_view_util_android.png)
 
-### Installing
+## Installing
 
 We can install this library by using gradle
 
