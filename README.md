@@ -1,33 +1,30 @@
-# Project Title
-
-One Paragraph of project description goes here
+# TextViewUtil Android
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Android TextView Util for Using extra TextView Function such as Underline, Strike in Kotlin Language
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+We can install this library by using gradle
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Step 1
 
 ```
-until finished
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Step 2
+
+```
+dependencies {
+	        compile 'com.github.BondolTuon:TextViewUtilAndroid:1.0.0'
+	}
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
