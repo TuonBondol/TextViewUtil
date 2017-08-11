@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">TTextView</string>
+    <string name="app_name">TextViewUtil</string>
+
+    <string name="underline">Underline</string>
+    <string name="strike">Strike</string>
+
 </resources>
