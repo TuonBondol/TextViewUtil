@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-# TextViewUtilAndroid
-Android TextView Util for Using extra TextView Function such as Underline, Strike in Kotlin Language
-
-# Download
-You can install this library by configure in Gradle file
-
-Step 1. Add the JitPack repository to your build file <br />
-	allprojects {
-		repositories {
-			maven { url 'https://jitpack.io' }
-		}
-	} <br /> <br />
-Step 2.<br /> 
-- Add the dependency<br />
-	dependencies {
-	        compile 'com.github.BondolTuon:TextViewUtilAndroid:1.0.0'
-	}
-=======
 # TextViewUtil Android
 
 ## Getting Started
@@ -74,5 +55,3 @@ See also the list of [contributors](https://github.com/BondolTuon/TextViewUtilAn
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BondolTuon/TextViewUtilAndroid/blob/1.x/README.md) file for details
-
->>>>>>> 1.x
