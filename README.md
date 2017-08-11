@@ -29,6 +29,23 @@ dependencies {
 	}
 ```
 
+## Sample Using
+
+```
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        tvUnderline.underline()
+
+        tvStrike.strike()
+    }
+}
+
+```
+
 ## Authors
 
 * **Bondol Tuon** - [Bondol Tuon](https://github.com/BondolTuon)
