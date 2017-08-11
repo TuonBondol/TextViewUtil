@@ -46,6 +46,13 @@ class MainActivity : AppCompatActivity() {
 
 ```
 
+## Min SDK Version
+
+```
+Support Min Sdk version >= 14
+
+```
+
 ## Authors
 
 * **Bondol Tuon** - [Bondol Tuon](https://github.com/BondolTuon)
