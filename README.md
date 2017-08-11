@@ -4,15 +4,14 @@ Android TextView Util for Using extra TextView Function such as Underline, Strik
 # Download
 You can install this library by configure in Gradle file
 
-Step 1. 
-- Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your build file <br />
 	allprojects {
 		repositories {
 			maven { url 'https://jitpack.io' }
 		}
-	}
-Step 2. 
-- Add the dependency
+	} <br /> <br />
+Step 2.<br /> 
+- Add the dependency<br />
 	dependencies {
 	        compile 'com.github.BondolTuon:TextViewUtilAndroid:1.0.0'
 	}
