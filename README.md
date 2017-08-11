@@ -31,7 +31,7 @@ dependencies {
 
 ## Authors
 
-* **Bondol Tuon** - *Initial work* - [Bondol Tuon](https://github.com/BondolTuon)
+* **Bondol Tuon** - [Bondol Tuon](https://github.com/BondolTuon)
 
 See also the list of [contributors](https://github.com/BondolTuon/TextViewUtilAndroid/contributors) who participated in this project.
 
