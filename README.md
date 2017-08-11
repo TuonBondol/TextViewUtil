@@ -4,7 +4,7 @@
 
 Android TextView Util for Using extra TextView Function such as Underline, Strike in Kotlin Language
 
-## Example
+## Demo
 ![](static/text_view_util_android.png)
 
 ## Installing
@@ -37,5 +37,5 @@ See also the list of [contributors](https://github.com/BondolTuon/TextViewUtilAn
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/BondolTuon/TextViewUtilAndroid/blob/1.x/README.md) file for details
 
