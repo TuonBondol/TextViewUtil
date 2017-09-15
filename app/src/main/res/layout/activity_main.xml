@@ -23,4 +23,13 @@
         android:text="@string/strike"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="@dimen/text_default_size" />
+
+    <TextView
+        android:id="@+id/tvBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_10dp"
+        android:text="@string/strike"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/text_default_size" />
 </LinearLayout>
