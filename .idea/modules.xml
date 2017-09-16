@@ -6,10 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/TextViewUtil.iml" filepath="$PROJECT_DIR$/TextViewUtil.iml" />
       <module fileurl="file://$PROJECT_DIR$/TextViewUtilAndroid.iml" filepath="$PROJECT_DIR$/TextViewUtilAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/textviewutil/textviewutil.iml" filepath="$PROJECT_DIR$/textviewutil/textviewutil.iml" />
-      <module fileurl="file://$PROJECT_DIR$/textviewutil/textviewutil.iml" filepath="$PROJECT_DIR$/textviewutil/textviewutil.iml" />
       <module fileurl="file://$PROJECT_DIR$/textviewutil/textviewutil.iml" filepath="$PROJECT_DIR$/textviewutil/textviewutil.iml" />
     </modules>
   </component>
