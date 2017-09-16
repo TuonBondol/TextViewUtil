@@ -2,8 +2,10 @@ package com.tuonbondol.textviewutil
 
 import android.graphics.Paint
 import android.graphics.Typeface
+import android.opengl.Visibility
 import android.text.SpannableString
 import android.text.style.StyleSpan
+import android.view.View
 import android.widget.TextView
 
 /***
@@ -25,4 +27,18 @@ fun TextView.bold(text: CharSequence) {
     mSpannableString.setSpan(StyleSpan(Typeface.BOLD), 0, text.length, 0)
 
     this.text = mSpannableString
+}
+
+fun TextView.compareVisibility(oldValue: Double, currentValue: Double, currencyType: String = "$") {
+    if (oldValue == 0.0) {
+        this.visibility = View.GONE
+        return
+    }
+    when (oldValue.compareTo(currentValue)) {
+        0, -1 -> this.visibility = View.GONE
+        1 -> {
+            this.visibility = View.VISIBLE
+            this.text = oldValue.toString().plus(currencyType)
+        }
+    }
 }

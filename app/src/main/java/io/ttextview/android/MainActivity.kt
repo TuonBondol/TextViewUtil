@@ -3,6 +3,7 @@ package io.ttextview.android
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.tuonbondol.textviewutil.bold
+import com.tuonbondol.textviewutil.compareVisibility
 import com.tuonbondol.textviewutil.strike
 import com.tuonbondol.textviewutil.underline
 import kotlinx.android.synthetic.main.activity_main.*
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         tvStrike.strike()
 
-        tvBold.bold("This is bold text! រឆាំងបទល្មើសេដ្ឋកិច្ចខេត្តបន្ទាយមានជ័យ")
+        tvBold.compareVisibility(10.0, 10.0)
 
     }
 }
