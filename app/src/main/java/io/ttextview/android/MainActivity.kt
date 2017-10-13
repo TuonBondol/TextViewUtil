@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         tvStrike.strike()
 
-        tvBold.compareVisibility(10.0, 10.0)
+        tvBold.compareVisibility("$", 10.0, 5.0)
 
     }
 }

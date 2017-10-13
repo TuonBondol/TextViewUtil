@@ -42,3 +42,17 @@ fun TextView.compareVisibility(oldValue: Double, currentValue: Double, currencyT
         }
     }
 }
+
+fun TextView.compareVisibility(currencyType: String = "$", oldValue: Double, currentValue: Double) {
+    if (oldValue == 0.0) {
+        this.visibility = View.GONE
+        return
+    }
+    when (oldValue.compareTo(currentValue)) {
+        0, -1 -> this.visibility = View.GONE
+        1 -> {
+            this.visibility = View.VISIBLE
+            this.text = currencyType.plus(oldValue.toString())
+        }
+    }
+}
