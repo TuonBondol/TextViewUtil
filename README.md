@@ -25,7 +25,7 @@ Step 2
 
 ```
 dependencies {
-	        compile 'com.github.BondolTuon:TextViewUtil:1.0.8'
+	        compile 'com.github.TuonBondol:TextViewUtil:1.0.8'
 	}
 ```
 
